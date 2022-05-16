@@ -14,3 +14,16 @@ addBtn.addEventListener("click", () => {
 function test(){
   console.log("this is a test");
 }
+
+//create car class 
+class Car {
+  constructor(make, model, year, color, price){
+    this.make = make;
+    this.model = model;
+    this.year = year;
+    this.color = color;
+    this.price = price;
+  }
+}
+const fiat = new Car("Fiat", "500", "2000", "red", "100");
+const ford = new Car("Ford", "Fiesta", "2010", "blue", "200");
